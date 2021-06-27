@@ -6,6 +6,15 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
+    emptyContainer: {
+        flex: 1,
+    },
+    emptyText: {
+        fontSize: 13,
+        fontFamily: theme.fonts.text400,
+        color: theme.colors.heading,
+        lineHeight: 21
+    },
     banner: {
         width: '100%',
         height: 234,
